@@ -18,4 +18,6 @@ __meta__ = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 10.073, 30.0253 )
 shape = SubResource( 1 )
+
+[node name="Audio" type="AudioStreamPlayer" parent="."]
 [connection signal="area_entered" from="." to="." method="_on_Bar_area_entered"]

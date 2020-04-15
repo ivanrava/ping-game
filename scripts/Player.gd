@@ -15,3 +15,4 @@ func _process(delta):
 func _on_Bar_area_entered(area):
 	if area.name == "Ball":
 		area.direction = Vector2(1, randf()*2-1).normalized()
+		$Audio.play()
