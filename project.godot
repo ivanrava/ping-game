@@ -21,8 +21,9 @@ _global_script_class_icons={
 [application]
 
 config/name="Ping"
+config/description="A simple Pong remake"
 run/main_scene="res://scenes/MainGame.tscn"
-config/icon="res://icon.png"
+config/windows_native_icon="res://icon.ico"
 
 [display]
 
